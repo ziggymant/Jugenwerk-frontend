@@ -10,6 +10,11 @@
     src: url('./fonts/OpenSans-Semibold.woff')
 }
 
+@font-face {
+    font-family: "Opensans regular";
+    src: url('./fonts/OpenSans-Regular.ttf')
+}
+
 /*end fonts*/
 
 /*begin heading*/
@@ -53,7 +58,7 @@
 }
 
 .main-nav>.nav-item>.nav-link:hover {
-  color: red;
+  color: #e51d30;
 }
 
 .logo {
@@ -80,12 +85,20 @@
   font-size: 13px;
 }
 
+.form-inline input:hover {
+  border: 2px solid #e51d30;
+}
+
+.form-inline input:focus {
+  border: 2px solid #e51d30;
+}
+
 #menu-btn {
   color: #959ba1;
 }
 
 #menu-btn:hover {
-  color: red;
+  color: #e51d30;
 }
 
 .btn-group button:hover {
@@ -111,9 +124,9 @@
 /*search field*/
 
 .search-header {
-  color: red;
-  font-family: 'Nanum Brush Script', cursive;
-  font-size: 50px;
+  color: #e51d30;
+  font-family: Daniel Bold;
+  font-size: 28px;
 }
 
 .search .form-control {
@@ -122,6 +135,7 @@
 
 .search .custom-select {
   border-radius: 0;
+  cursor: pointer;
 }
 
 .search > div {
@@ -160,14 +174,14 @@
 }
 
 .search-result .left-box a {
-  color: red;
+  color: #e51d30;
   text-decoration: underline;
 
 }
 
 .search-result .left-box{
   padding: 15px 10px 5px 10px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #e51d30;
   background-color: #fbfbfb;
 }
 
@@ -221,12 +235,12 @@
 }
 
 .modal-navigation a:hover{
-  color: red;
+  color: #e51d30;
 }
 
 .close-btn {
   font-size: 1.5rem;
-  color: red;
+  color: #e51d30;
 }
 
 .close-btn>span {
@@ -243,7 +257,7 @@
 
 .modal-footer>.close-btn {
   font-size: 1.5rem;
-  color: red;
+  color: #e51d30;
 }
 
 .modal-footer>.close-btn>span {
@@ -252,7 +266,7 @@
 }
 
 .modal-footer>.close-btn>span:hover {
-  color: red;
+  color: #e51d30;
   text-shadow: none;
   cursor: pointer;
 }
@@ -290,7 +304,7 @@
 
 .modal-body hr{
   height: 3px;
-  background-color: red;
+  background-color: #e51d30;
   border: none;
 }
 
@@ -355,15 +369,16 @@
   height: 50px
   width: 50px;
   background-image: url('../img/up-button.svg');
+  cursor: pointer;
 }
 
 
 .reasons span {
-  color: red;
+  color: #e51d30;
 }
 
 .reasons li {
-
+  font-family: "Opensans regular";
   padding: 10px;
 }
 
@@ -455,6 +470,10 @@ figure {
   color: #6c757d;
 }
 
+.freizeit-info span {
+  color: #e51d30;
+}
+
 .freizeit-info h5 {
   font-family: Opensans semibold;
 }
@@ -478,7 +497,7 @@ footer span {
 }
 
 footer span> a{
-  color: red;
+  color: #e51d30;
   text-decoration: underline;
   font-size: 12px;
 }
@@ -500,7 +519,7 @@ footer a {
 }
 
 footer a:hover {
- color: red;
+ color: #e51d30;
  text-decoration: none;
 }
 
@@ -519,6 +538,15 @@ footer a:hover {
 }
 
 
+@media (max-width: 990px) {
+  .dropdown-content {
+    background-color: #ccc;
+    padding-right: 20px;: 
+  }
+
+  .modal-menu ul {
+    text-align: center;
+  }
 }
 
 
