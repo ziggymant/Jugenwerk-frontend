@@ -1,0 +1,525 @@
+
+/*fonts*/
+@font-face {
+    font-family: "Daniel Bold";
+    src: url('./fonts/danielbd.woff')
+}
+
+@font-face {
+    font-family: "Opensans semibold";
+    src: url('./fonts/OpenSans-Semibold.woff')
+}
+
+/*end fonts*/
+
+/*begin heading*/
+
+.page {
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.jumbotron{
+  background-image: url("../img/AWO2017_HP_home_header_6250x1579px_21-12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 8rem 2rem;
+}
+
+
+
+.heading-text {
+  text-align: center;
+}
+
+.heading-text h1 {
+  font-family: Daniel Bold;
+  font-size: 45px;
+}
+
+.heading-text p {
+  font-family: Opensans semibold;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.main-nav>.nav-item>.nav-link {
+  font-size: 13px;
+}
+
+.main-nav>.nav-item>.nav-link:hover {
+  color: red;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.logo img {
+  height: 80px
+}
+
+.logo img:hover {
+  box-shadow: 0px 2px 2px 2px #888888;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 20px;
+}
+
+.form-inline input {
+  max-width: 150px;
+  font-size: 13px;
+}
+
+#menu-btn {
+  color: #959ba1;
+}
+
+#menu-btn:hover {
+  color: red;
+}
+
+.btn-group button:hover {
+  background-color: inherit;
+  color: black;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.search-btn {
+  background-color: inherit;
+  border: none;
+  color: #959ba1;
+}
+
+.search-btn:hover {
+  color: black;
+  cursor: pointer;
+}
+
+/*search field*/
+
+.search-header {
+  color: red;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 50px;
+}
+
+.search .form-control {
+  border-radius: 0;
+}
+
+.search .custom-select {
+  border-radius: 0;
+}
+
+.search > div {
+  padding: 0px;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 16px;
+}
+
+#search-box {
+  border: 2px solid #da5656;
+  display: none;
+}
+
+#loader {
+  display: none;
+}
+
+.search-result {
+  /*border: 2px solid #da5656;*/
+  border-bottom: : 2px solid white;
+}
+
+.search-result>.left-box>p {
+  font-size: 15px;
+}
+
+.search-result>.left-box>h5 {
+  font-family: Opensans semibold;
+}
+
+.search-result>.right-box>h6 {
+  font-family: Opensans semibold;
+}
+
+.search-result .left-box a {
+  color: red;
+  text-decoration: underline;
+
+}
+
+.search-result .left-box{
+  padding: 15px 10px 5px 10px;
+  border-bottom: 2px solid red;
+  background-color: #fbfbfb;
+}
+
+.right-box{
+  background-color: #da5656;
+  color: white;
+  padding: 15px 10px 5px 10px;
+  border-bottom: 2px solid white;
+}
+
+
+
+/*end search field*/
+
+/*modal menu*/
+
+.modal-dialog {
+  position: absolute;
+  width: 100%;
+}
+
+.modal-menu {
+  margin-top: 0px;
+  background-image: url("../img/transparent.png");
+}
+
+.modal-content {
+  background-color: transparent;
+}
+
+.modal-menu .modal-content {
+  border-radius: 0;
+}
+
+.modal-header {
+  background-color: #6f6f6f;
+  color: white;
+  border-radius: 0px;
+}
+
+
+.modal-navigation {
+  max-width: 100%;
+
+}
+
+.modal-navigation a {
+  font-family: "Opensans semibold";
+  color: white;
+  font-size: 18px;
+}
+
+.modal-navigation a:hover{
+  color: red;
+}
+
+.close-btn {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.close-btn>span {
+  color: white;
+  text-shadow: none;
+}
+
+.close-btn>span:hover {
+  color: black;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+
+.modal-footer>.close-btn {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.modal-footer>.close-btn>span {
+  color: black;
+  text-shadow: none;
+}
+
+.modal-footer>.close-btn>span:hover {
+  color: red;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  background-color: #ffffffe0;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+.modal-body h4{
+  font-family: "Opensans semibold";
+}
+
+.modal-body h6{
+  font-family: "Opensans semibold";
+}
+
+.modal-body p{
+  font-family: "Opensans semibold";
+  font-size: 16px;
+}
+
+.modal-body a{
+  font-family: "Opensans semibold";
+  color: #464444;
+  text-decoration: none;
+  font-size: 13px;
+      
+}
+
+.modal-navigation .nav-link{
+  padding: 1px 0 1px 0;
+}
+
+.modal-body hr{
+  height: 3px;
+  background-color: red;
+  border: none;
+}
+
+
+.modal-body li {
+ list-style-type: none;
+}
+
+.modal-body ul {
+  padding: 0;
+}
+
+.modal-content {
+  border: none;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 0px;
+    margin-left: 8px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*end modal menu*/
+
+
+
+/*content*/
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 50px
+  width: 50px;
+  background-image: url('../img/up-button.svg');
+}
+
+
+.reasons span {
+  color: red;
+}
+
+.reasons li {
+
+  padding: 10px;
+}
+
+.reasons ul
+{
+  list-style-type: square;
+  list-style-image: url('../img/point.png');
+}
+
+.freizeit-img img {
+  width: 300px;
+}
+
+.freizeit-img {
+  padding-bottom: 50px;
+}
+
+
+#europe-map {
+  height: 500px;
+}
+
+figcaption {
+  text-align: center;
+
+  font-family: Opensans semibold;
+}
+
+.figure-caption {
+  font-size: 100%;
+}
+
+figure {
+  position: relative;
+}
+
+.freizeit-icons img {
+  height: 150px;
+}
+
+.freizeit-icons {
+  padding-bottom: 50px;
+}
+
+#teamer-popup {
+  position: absolute;
+  right: -50px;
+  top: -10px;
+  cursor: pointer;
+}
+
+#teamer-popup img {
+  height: 100px;
+  width: 100px;
+}
+
+.popup-teamer-modal .modal-body {
+  margin-top: 150px;
+  background-color: #ede6e6;
+  
+}
+
+.modal-body h3 {
+  font-family: Daniel Bold;
+  padding-top: 30px;
+}
+
+.modal-body p {
+  font-family: Opensans semibold;
+  padding-top: 30px;
+}
+
+.popup-teamer-modal .modal-footer {
+  background-color: #f1e7e7;
+}
+
+.modal-body #popup-img {
+    position: absolute;
+    right: 160px;
+    top: -60px;
+}
+
+#popup-img img {
+  height: 130px;
+  width: 130px;
+}
+
+.freizeit-info p {
+  color: #6c757d;
+}
+
+.freizeit-info h5 {
+  font-family: Opensans semibold;
+}
+
+/* Footer */
+footer {
+  background-image: url('../img/AWO2017_Entwurf3_FOOTER.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  padding: 2rem 0;
+  color: #fff;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+footer span {
+  color: #ccc;
+  font-size: 12px;
+}
+
+footer span> a{
+  color: red;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+footer ul>li>a {
+ color: #ccc;
+ font-size: 14px;
+}
+
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a:hover {
+ color: red;
+ text-decoration: none;
+}
+
+/*different viewports*/
+
+@media (min-width: 992px) {
+  #europe-map {
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  #europe-map {
+    height: 300px;
+  }
+}
+
+
+}
+
+
+
