@@ -1,0 +1,80 @@
+
+.jumbotron{
+  background-image: url("../img/header_img/comillas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 16rem 2rem;
+}
+
+
+.logo {
+  z-index: 9999;
+}
+
+
+.jumbotron {
+  position: relative;
+  padding: 21rem 2rem;
+}
+
+.heading-text {
+    margin-top: 150px;
+    position: absolute;
+    bottom: 100px;
+    left: 25%;
+    background-color: #bababab8;
+}
+
+.freizeit-bild img {
+  width: 430px;
+}
+
+.freizeit-bild figure {
+  padding: 15px;
+}
+
+.freizeit-info {
+  padding-bottom: 50px;
+  font-family: "Opensans regular";
+}
+
+.anmelden-btn {
+  border: 2px solid #e51d30;
+  padding: 6px;
+  display: inline-block;
+  font-size: 12px;
+  font-family: Opensans semibold;
+  cursor: pointer;
+  color: #e51d30;
+  position: absolute;
+  left: 20%;
+}
+
+.anmelden-btn:hover {
+  color: black;
+}
+
+.info-box {
+  width: 100%;
+  background-color: #e51d30; 
+  padding: 10px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Opensans semibold;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+
+@media (max-width: 990px) {
+  .info-box {
+    font-size: 15px;
+    width: 108%;
+    margin: 5px;
+  }
+  .heading-text {
+    left: 5%;
+  }
+}

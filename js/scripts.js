@@ -1,14 +1,18 @@
 
 // search for project imitation with timer
 
-var search = document.getElementById('suchen');
+var searchBtn = document.getElementById('suchen');
 var loader = document.getElementById('loader');
 var result = document.getElementById('search-box');
 
-search.addEventListener('click', function(event){
+if(searchBtn){
+  searchBtn.addEventListener('click', function(event){
   event.preventDefault();
   search();
-});
+  });
+}
+
+
 
 var search = function(){
   console.log('searching...');

@@ -26,7 +26,7 @@
 }
 
 .jumbotron{
-  background-image: url("../img/AWO2017_HP_home_header_6250x1579px_21-12.jpg");
+  background-image: url("../img/header_img/AWO2017_HP_home_header_6250x1579px_21-12.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -78,6 +78,17 @@
 .navbar-brand {
   position: absolute;
   top: 20px;
+}
+
+.form-inline {
+  width: 190px;
+  position: absolute;
+  right: -10px;
+}
+
+.search-tab {
+  width: 190px;
+  position: relative;
 }
 
 .form-inline input {
