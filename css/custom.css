@@ -309,6 +309,10 @@
       
 }
 
+.modal-body a:hover{
+  color: #e51d30;
+}
+
 .modal-navigation .nav-link{
   padding: 1px 0 1px 0;
 }

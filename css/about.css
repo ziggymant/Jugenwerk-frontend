@@ -1,0 +1,38 @@
+
+.about-info p>span{
+	color: red;
+}
+
+#loader-seminar {
+	display: none;
+}
+
+#search-box-seminar{
+	display: none;
+}
+
+
+#jw-button {
+	
+	
+}
+
+#jw-button>a {
+	color: #fff;
+	font-size: 28px;
+	width: auto;
+	height: 30px;
+	background-color: #e51d30;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+#jw-button>a:hover {
+	color: #fff;
+	background-color: #f15665;
+	text-decoration: none;
+}
+
+.freizeit-info h3,h6 {
+	font-family: Opensans semibold;
+}

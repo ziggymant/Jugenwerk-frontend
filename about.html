@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>Jugendreisen</title>
+    <title>Das Jugendwerk</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,6 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+
 
     <!-- fonts -->
 
@@ -193,7 +195,7 @@
               <a class="nav-link" href="#">WAS UNS AUSMACHT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">DAS JUGENDWERK</a>
+              <a class="nav-link active" href="about.html">DAS JUGENDWERK</a>
             </li>
             <li class="nav-item ml-5 search-tab">
               <form class="form-inline my-2 my-lg-0">
@@ -224,7 +226,23 @@
       <div id="back-to-top" title="Zurück nach Oben"><img height="50px" src="img/up-button.svg"></div>
 
         <div class="row">
-          <div class="col-md-6 offset-md-3 col-11 ml-auto mr-auto">
+          <div class="col-md-9 col-10 ml-auto mr-auto about-info">
+              <article>
+                <h1 class="text-center">Headline</h1>
+                <br>
+                <p><span>Tenetur cillum distinctio habitasse exercitationem, urna!</span> Tortor dis facere aliquid corporis tenetur aliqua dolorum justo! Vitae dapibus eros? Culpa dignissimos. Arcu pretium perspiciatis tempora, class? Pulvinar turpis earum aspernatur fusce, tortor per dolores, metus adipisicing platea posuere luctus, excepteur.</p>
+
+                <p>Tenetur cillum distinctio habitasse exercitationem, urna! Tortor dis facere aliquid corporis tenetur aliqua dolorum justo! Vitae dapibus eros? Culpa dignissimos. Arcu pretium perspiciatis tempora, class? Pulvinar turpis earum aspernatur fusce, tortor per dolores, metus adipisicing platea posuere luctus, excepteur.</p>
+
+                <p>Tenetur cillum distinctio habitasse exercitationem, urna! Tortor dis facere aliquid corporis tenetur aliqua dolorum justo! Vitae dapibus eros? Culpa dignissimos. Arcu pretium perspiciatis tempora, class? Pulvinar turpis earum aspernatur fusce, tortor per dolores, metus adipisicing platea posuere luctus, excepteur.</p>
+              </article>
+          </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+          <div class="col-lg-8 col-md-8 offset-md-3 col-11 ml-auto mr-auto">
+            <h3 class="text-center">UNSERE FERIENFREIYEITEN 2018</h2>
+            <br>
             <h3 class="search-header text-center">FINDE DEINE REISE...</h3>
             <form>
               <div class="row search">
@@ -306,6 +324,84 @@
           </div>
         </div>
 
+        <div class="row mt-5 mb-5">
+          <div class=" col-lg-8 col-md-8 offset-md-3 col-11 ml-auto mr-auto">
+            <h3 class="text-center">UNSERE BILDUNGSANGEBOTE/SEMINARE 2018</h2>
+            <br>
+            <h3 class="search-header text-center">FINDE DEIN SEMINAR...</h3>
+            <form>
+              <div class="row search">
+                <div class="col">
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option disabled="" selected>MONAT</option>
+                    <option value="1">JANUAR</option>
+                    <option value="2">FEBRUAR</option>
+                    <option value="3">MÄRZ</option>
+                    <option value="3">USW...</option>
+                  </select>
+                </div>
+
+                <div class="col">
+                  <select class="custom-select"  id="inputGroupSelect01">
+                    <option disabled="" selected>VERANSTALTUNGSORT</option>
+                    <option value="1">STUTTGART</option>
+                    <option value="2">KARLSRUHE</option>
+                
+                  </select>
+                </div>
+                <div class="search-btn">
+                  <button id="suchen-seminar" class="btn"> GO</button>
+                </div>
+              </div>
+            </form>
+            <div class="row" id="loader-seminar">
+              <div class="col-md-2 col-sm-2 col-3 mr-auto ml-auto pt-4">
+                <img height="60px" src="./img/spinner.gif">
+              </div>
+            </div>
+            <div class="row" id="search-box-seminar">
+
+              <div class="container">
+                
+                  <div class="row search-result" >
+                  <div class="col-md-8 left-box">
+                    <h5>Seminar name 1</h4>
+                    
+                    <p>Tempor, sequi felis officiis, orci eu nostrum pariatur veritatis quis culpa exercitation, id mus, lectus placeat, adipisicing cumque, quod itaque occaecati ipsam morbi eos! Tenetur amet lacinia veritatis quis culpa exercitation, id mus, lectus placeat, adipisicing cumque, quod itaque occaecati ipsam morbi eos! Tenetur amet lacinia <a target="_blank" href="freizeit.html">mehr</a></p>
+                  </div> 
+                  <div class="col-md-4 right-box">
+                    <h6>Alter</h6>
+                    <p>ab 18 J.</p>
+                    <h6>Zeitraum</h6>
+                    <p>17.09.18 - 30.09.18</p>
+                    <h6>Preis</h6>
+                    <p>0,00 EUR</p>
+                  </div>
+                </div>
+                
+                <div class="row search-result">
+                  <div class="col-md-8 left-box">
+                    <h5>Seminar name 2</h4>
+                    
+                    <p>Tempor, sequi felis officiis, orci eu nostrum pariatur veritatis quis culpa exercitation, id mus, lectus placeat, adipisicing cumque, quod itaque occaecati ipsam morbi eos! Tenetur amet lacinia veritatis quis culpa exercitation, id mus, lectus placeat, adipisicing cumque, quod itaque occaecati ipsam morbi eos! Tenetur amet lacinia <a target="_blank" href="freizeit.html">mehr</a></p>
+                  </div> 
+                  <div class="col-md-4 right-box">
+                    <h6>Alter</h6>
+                    <p>ab 20 J.</p>
+                    <h6>Zeitraum</h6>
+                    <p>17.09.18 - 30.09.18</p>
+                    <h6>Preis</h6>
+                    <p>0,00 EUR</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
         <br><br>
 
         <div class="row mb-2 freizeit-img">
@@ -367,91 +463,22 @@
         </div>
 
         
-        <div class="row mb-2">
+        <div class="row mb-5">
             <main role="main" class="container">
 
-              <div class="row">
-                <div class="col-md-10 col-lg-12 col-sm-10">
-                  <h3 class="pb-3 mb-4 text-center">
-                    FÜNF GUTE GRÜNDE FÜR JUGENDWERK
-                  </h3>
-
-                  <div class="row reasons">
-                    <div class="col-md-6 ml-auto">
-                      <ul>
-                        <li><span>Donec mollis nisi excepteur? Ipsa, voluptatum cum</span> consequuntur ultrices molestias laoreet! Mus?</li>
-                        <li><span>Donec mollis nisi excepteur? Ipsa, voluptatum cum</span> consequuntur ultrices molestias laoreet! Mus?</li>
-                        <li><span>Donec mollis nisi excepteur? Ipsa, voluptatum cum</span> consequuntur ultrices molestias laoreet! Mus?</li>
-                        <li><span>Donec mollis nisi excepteur? Ipsa, voluptatum cum</span> consequuntur ultrices molestias laoreet! Mus?</li>
-                        <li><span>Donec mollis nisi excepteur? Ipsa, voluptatum cum</span> consequuntur ultrices molestias laoreet! Mus?</li>
-    
-                      </ul>
-                    </div>
-                    <div class="col-md-4 text-center text-lg-left">
-                      <img height="300px;" src="img/AWO2017_HP_DeutschlandkarteGESAMT_20-12.jpg">
-                    </div>
-                  </div>
-
-                  
-                </div>
-              </div>
-
-              <br><br>
-
-              <div class="row">
-                <div class="col-md-4 col-lg-6 col-8 ml-auto mr-auto">
-  
-                  <img id="europe-map" src="img/mapEurope.png">
-
-                </div>
-              </div>
-
-              <br><br>
-
-              <div class="row">
-                <div class="col-md-12 col-6 ml-auto mr-auto">
-
-
-                  <div class="freizeit-icons">
-                    <h4 class="text-center">WAS UNSERE FREIZEITEN AUSMACHT</h4>
-                      <br><br>
-
-
-                      <div class="row mb-2">
-                        <div class="col-md-3 text-center">
-                          <figure class="figure ">
-                            <img src="img/freizeiten/1.jpg" class="figure-img img-fluid" alt="A generic square placeholder image with corners in a figure.">
-                            <figcaption class="figure-caption">AN- &amp; ABREISE</figcaption>
-                          </figure>
-                        </div>
-                         <div class="col-md-3 text-center">
-                          <figure class="figure ">
-                            <img src="img/freizeiten/2.jpg" class="figure-img img-fluid" alt="A generic square placeholder image with corners in a figure.">
-                            <figcaption class="figure-caption">ESSEN, SCHLAFEN, USW.</figcaption>
-                          </figure>
-                        </div>
-                         <div class="col-md-3 text-center">
-                          <figure class="figure ">
-                            <img src="img/freizeiten/3.jpg" class="figure-img img-fluid" alt="A generic square placeholder image with corners in a figure.">
-                            <figcaption class="figure-caption">PREISE, LEISTUNGEN  &amp; ZUSCHÜSSE</figcaption>
-                          </figure>
-                        </div>
-                        <div class="col-md-3 text-center">
-                          <figure class="figure ">
-                            <img src="img/freizeiten/4.jpg" class="figure-img img-fluid" alt="A generic square placeholder image with corners in a figure.">
-                            <figcaption class="figure-caption">IST DAS WAS FÜR MICH</figcaption>
-                          </figure>
-                        </div>
-                    </div>
-
-                  </div><!-- /.freizeit icons -->
-
-                </div> <!-- col-md-12 -->
-
-              </div><!-- /.row -->
-
-              <div class="row">
+              <div class="row mb-5 mt-5">
                 <div class="col-md-9 col-10 ml-auto mr-auto freizeit-info">
+                  <div class="text-center " id="jw-button"><a href="www.jugendwerk24.de">WWW.JUGENDWERK24.DE</a></div>
+                </div>
+              </div>
+
+              <div class="row mt-5">
+                <div class="col-md-9 col-10 ml-auto mr-auto freizeit-info">
+                  <h3 class="text-center pt-5">WICHTIGE INFORMATIONEN FÜR TEILNEHMENDE UND ELTERN</h3>
+                  
+                  <h6 class="text-center pb-5">Bei der Entscheidung für die richtige Ferienfreizeit sollen keine Fragen offen bleiben</h6>
+                  <br>
+                  <br>
                   <article>
                     <h5>An- und Abreise</h5>
                     <br>
@@ -474,13 +501,6 @@
                     <h5>Ist das was für mich?</h5>
                     <br>
                     <p>Tenetur cillum distinctio habitasse exercitationem, urna! Tortor dis facere aliquid corporis tenetur aliqua dolorum justo! Vitae dapibus eros? Culpa dignissimos. Arcu pretium perspiciatis tempora, class? Pulvinar turpis earum aspernatur fusce, tortor per dolores, metus adipisicing platea posuere luctus, excepteur, numquam dictumst nonummy! Doloremque, eum accusamus cursus mattis eu, semper, lorem aliquam, etiam quo. Quibusdam! Impedit tempore, voluptatibus? Pellentesque illo purus malesuada veniam lectus praesentium veniam parturient! Cupiditate repellat? Cupiditate \</p>
-                  </article>
-
-                  <br><br><br>
-
-                  <article>
-                    <h5>Das Jugendwerk ist...</h5>
-                    <p>Tenetur cillum distinctio habitasse exercitationem, urna! Tortor dis facere aliquid corporis tenetur aliqua dolorum justo! Vitae dapibus eros? Culpa dignissimos. Arcu pretium perspiciatis tempora, class? Pulvinar turpis earum aspernatur fusce, tortor per dolores, metus adipisicing platea posuere luctus, excepteur, numquam dictumst nonummy! Doloremque, eum accusamus cursus mattis eu, semper, lorem aliquam, etiam quo. Quibusdam! Impedit tempore, voluptatibus? Pellentesque illo purus malesuada veniam lectus praesentium veniam parturient! Cupiditate repellat? Cupiditate <span>[mehr]</span></p>
                   </article>
                 </div>
               </div>
